@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d33ada8-c6c3-4119-8dd6-475db0f0cbdd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway/apps/gateway_comm/include/log.hrl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway/apps/gateway_comm/rebar.config" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway/apps/gateway_net/include/net.hrl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway/apps/gateway_net/src/net_listen.erl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway/apps/gateway_net/src/net_socket.erl" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/erlang_gateway.iml" afterPath="$PROJECT_DIR$/erlang_gateway.iml" />
-      <change beforePath="$PROJECT_DIR$/gateway/rebar.config" afterPath="$PROJECT_DIR$/gateway/rebar.config" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +15,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="net_listen.erl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="net_listen.erl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway/apps/gateway_net/src/net_listen.erl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2016">
               <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,6 +102,8 @@
         <option value="$PROJECT_DIR$/gateway/apps/gateway_net/src/net_socket.erl" />
         <option value="$PROJECT_DIR$/gateway/apps/gateway_comm/include/log.hrl" />
         <option value="$PROJECT_DIR$/gateway/apps/gateway_net/src/net_listen.erl" />
+        <option value="$PROJECT_DIR$/gateway/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -115,70 +140,6 @@
             <path>
               <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
               <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_comm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_comm" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_comm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_eenv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_net" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="erlang_gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="erlang_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway_net" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532312949475</updated>
       <workItem from="1532312950889" duration="476000" />
-      <workItem from="1532745494958" duration="11218000" />
+      <workItem from="1532745494958" duration="11350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11694000" />
+    <option name="totallyTimeSpent" value="11826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -438,32 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1480">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erlang_gateway.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,6 +608,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2016">
           <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
